@@ -1,0 +1,210 @@
+.navbar-brand {
+  width: 257px;
+  height: 54px;
+  left: 100px;
+  top: 13px;
+  padding-right: 200px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+.nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+.header {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 1440px;
+  height: 840px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5) 12.67%,
+      rgba(0, 0, 0, 0.5) 33.38%,
+      rgba(0, 0, 0, 0) 49.13%
+    ),
+    url(../images/young-woman-2699780_1920\ 1.png);
+}
+.para1 {
+  position: absolute;
+  width: 487px;
+  height: 28px;
+  left: 80px;
+  top: 299px;
+
+  /* Poppins/H4 - Poppins 24px - Semi Bold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+.para2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  position: absolute;
+  width: 489px;
+  height: 150px;
+  left: 81px;
+  top: 347px;
+  /* or 114% */
+
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+.btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 81px;
+  top: 543px;
+
+  background: #009f7b;
+  border-radius: 5px;
+}
+.btn1 {
+  position: absolute;
+  width: 244px;
+  height: 50px;
+  left: 291px;
+  top: 543px;
+
+  background: #009f7b;
+  border-radius: 5px;
+}
+.card {
+  width: 929px;
+  height: 396px;
+
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 100px;
+  border: outset;
+  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.heading {
+  width: 507px;
+  height: 33px;
+
+  /* Poppins/H3 - Poppins 27px - SemiBold */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  /* identical to box height, or 122% */
+
+  letter-spacing: 0.4px;
+
+  /* Primary */
+
+  color: #4cb3df;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.hr {
+  width: 190.45px;
+  height: 0px;
+
+  border: 5px solid #70e4c0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.doc-img {
+  border-radius: 50%;
+  float: left;
+
+  transform: translate(-60%, -0%);
+  -ms-transform: translate(-50%, -50%);
+
+  width: 396px;
+  height: 396px;
+  left: 200px;
+  top: 1601px;
+}
+
+.form-control {
+  float: left;
+}
+.info-heading {
+  /* Treatments We Provide */
+
+  position: absolute;
+  width: 499px;
+  height: 48px;
+  left: 471px;
+  top: 2401px;
+
+  /* H1 - SansPro 48 - Bold */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  color: #08785d;
+}
+.map-section {
+  display: flex;
+  padding-top: 200px;
+}
+.map-section-content {
+  margin-left: 700px;
+}
+.map-image {
+  float: left;
+  position: absolute;
+  width: 506px;
+  height: 410px;
+  left: 161px;
+
+  background: rgba(242, 252, 247, 0.2);
+}
+.subject {
+  width: 500px;
+}

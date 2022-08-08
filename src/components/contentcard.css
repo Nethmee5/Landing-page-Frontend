@@ -1,0 +1,68 @@
+.card {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 48px;
+  gap: 48px;
+
+  width: 982px;
+  height: 302px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.title {
+  width: 296px;
+  height: 33px;
+
+  /* H3 - SansPro 30 - Bold */
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+  /* identical to box height, or 110% */
+
+  letter-spacing: 0.4px;
+
+  color: #4cb3df;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.hrtag {
+  height: 0px;
+  width: 200px;
+  border: 5px solid #70e4c0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.cardimage {
+  width: 386px;
+  height: 300px;
+
+  border-radius: 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.card-body {
+  display: flex;
+}

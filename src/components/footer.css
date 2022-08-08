@@ -1,0 +1,181 @@
+.Footer{
+
+width: 1440px;
+height: 319px;
+right: 0px;
+bottom: 0px;
+
+
+background: #009F7B;
+}
+.row{
+   margin-left: 20px;
+   margin-right: 20px;
+    
+}
+.col{
+    padding: 30px;
+}
+.head1{
+
+/* H1 - SansPro 48 - Bold */
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+}
+.cont1{
+ 
+    
+    /* B2 - SansPro 16 - Regular */
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    
+    color: #FFFFFF;
+    
+}
+.head2{
+
+
+/* H4 - SansPro 27 - Bold */
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 27px;
+line-height: 28px;
+/* identical to box height, or 104% */
+
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+}
+.cont2{
+
+
+/* B2 - SansPro 16 - Regular */
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+}
+.head3{
+
+    /* H4 - SansPro 27 - Bold */
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 28px;
+    /* identical to box height, or 104% */
+    
+    letter-spacing: 0.4px;
+    
+    color: #FFFFFF;
+    
+}
+.cont3{
+
+
+
+    
+    /* B2 - SansPro 16 - Regular */
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    
+    color: #FFFFFF;
+    
+    
+}
+.head4{
+
+  
+    /* H3 - SansPro 30 - Bold */
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 28px;
+    /* identical to box height, or 104% */
+    
+    letter-spacing: 0.4px;
+    
+    color: #FFFFFF;
+    
+}
+.cont4{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    
+    color: #FFFFFF;
+  
+    
+ 
+}
+#footer-li{
+    list-style: none;
+    padding-top: 20px;
+    
+
+}
+#footer-li-last{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 0px;
+
+
+background: #08785D;
+border-radius: 5px;
+
+}
+.footer-corner{
+
+    /* © Vital Medical Foresthills | 2021 */
+    
+    padding-left: 50px;
+
+ 
+    
+    /* B1 - SansPro 14 - Regular */
+    display: flex;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    
+    letter-spacing: 0.4px;
+    
+    color: #FFFFFF;
+    
+}
