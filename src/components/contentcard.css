@@ -1,6 +1,6 @@
 .card {
   /* Auto layout */
-
+       
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -65,4 +65,26 @@
 }
 .card-body {
   display: flex;
+
+}
+.title-cards{
+  position: absolute;
+width: 499px;
+height: 48px;
+left: 471px;
+top: 2401px;
+
+/* H1 - SansPro 48 - Bold */
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #08785D;
 }

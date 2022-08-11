@@ -3,47 +3,26 @@ import "../Form/form.css";
 
 function Form() {
   return (
-    <div className="form-content">
-      <form>
-        <div class="form-group">
-          <input
-            type="text"
-            class="form-control"
-            id="firstname"
-            aria-describedby="emailHelp"
-            placeholder="First Name"
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="email"
-            class="form-control"
-            id="lastname"
-            placeholder="Email"
-            style={{
-              width: 285,
-              height: 50,
-
-              background: "rgba(112, 228, 192, 0.2)",
-              borderRadius: 5,
-            }}
-          />
-        </div>
-
-        <button
-          type="submit"
-          style={{
-            width: 590,
-            height: 50,
-
-            backgroundColor: "#08785D",
-            borderRadius: 5,
-          }}
-        >
-          Send Me - 5 Thinngs You Need To Know Before Surgery
-        </button>
-      </form>
+    <>
+    <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" id="form_1"placeholder="First Name*" aria-label="First name"/>
     </div>
+    <div class="col">
+      <input type="email" class="form-control " id="form_2"placeholder="Email*" aria-label="Last name"/>
+    </div>
+    
+    
+</div>
+<div class="row">
+<button type="submit" className="btn_sbt">Send Me - 5 Things You Need To Know Before Surgery</button>
+
+</div>
+
+</>
+
+
+    
   );
 }
 

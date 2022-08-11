@@ -1,29 +1,37 @@
-#firstname {
+#form_1{
+
+
+
+position: absolute;
+width: 285px;
+height: 50px;
+left: 425px;
+top: 2181px;
+background: rgba(112, 228, 192, 0.2);
+
+/* Poppins/B2 - Poppins 15px - Regular */
+
+color: #4CB3DF;
+
+}
+#form_2{
+   
+  position: absolute;
   width: 285px;
   height: 50px;
-  left: 425px;
+  left: 730px;
   top: 2181px;
-
+  
   background: rgba(112, 228, 192, 0.2);
-  border-radius: 5px;
-}
-#lastname {
-  width: 285px;
-  height: 50px;
-  left: 900px;
-  top: 2181px;
-  background: rgba(112, 228, 192, 0.2);
-  border-radius: 5px;
-}
-.form-content {
-  margin-left: 500px;
-}
-#button-submit {
-  width: 590px;
-  height: 50px;
-  left: 425px;
-  top: 2251px;
 
-  background: #08785d;
-  border-radius: 5px;
+}
+.btn_sbt{
+  position: absolute;
+width: 590px;
+height: 50px;
+left: 425px;
+top: 2251px;
+
+background: #08785D;
+border-radius: 5px;
 }

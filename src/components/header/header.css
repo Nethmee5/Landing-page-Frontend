@@ -1,7 +1,8 @@
 .navbar-brand {
+
   width: 257px;
   height: 54px;
-  left: 100px;
+  left: 200px;
   top: 13px;
   padding-right: 200px;
   font-family: "Poppins";
@@ -10,26 +11,29 @@
   font-size: 36px;
   line-height: 54px;
   /* identical to box height */
-
   letter-spacing: 0.4px;
-
   color: #ffffff;
+
+
 }
 .nav-link {
+
+
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
-
+  padding-left: 100px;
   letter-spacing: 0.4px;
-
+  
   color: #ffffff;
 }
+
 .header {
-  background-size: cover;
-  background-repeat: no-repeat;
+
 
   width: 1440px;
   height: 840px;
@@ -44,9 +48,37 @@
     ),
     url(../images/young-woman-2699780_1920\ 1.png);
 }
+#btn_1{
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 81px;
+top: 543px;
+
+background: #009F7B;
+border-radius: 5px;
+border: none;
+}
+#btn_2{
+  position: absolute;
+width: 244px;
+height: 50px;
+left: 291px;
+top: 543px;
+border: none;
+background: #009F7B;
+border-radius: 5px;
+}
+.vector_phone{
+
+padding-right: 10px;
+
+}
+
+
 .para1 {
   position: absolute;
-  width: 487px;
+  width: 500px;
   height: 28px;
   left: 80px;
   top: 299px;
@@ -81,36 +113,17 @@
 
   color: #ffffff;
 }
-.btn {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 81px;
-  top: 543px;
 
-  background: #009f7b;
-  border-radius: 5px;
-}
-.btn1 {
-  position: absolute;
-  width: 244px;
-  height: 50px;
-  left: 291px;
-  top: 543px;
-
-  background: #009f7b;
-  border-radius: 5px;
-}
 .card {
   width: 929px;
   height: 396px;
 
-  align-items: center;
   margin-left: 300px;
   margin-top: 100px;
   border: outset;
   box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
+  
 }
 
 .heading {
@@ -118,7 +131,7 @@
   height: 33px;
 
   /* Poppins/H3 - Poppins 27px - SemiBold */
-
+ ;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -150,6 +163,7 @@
   order: 1;
   flex-grow: 0;
 }
+
 .doc-img {
   border-radius: 50%;
   float: left;
@@ -163,9 +177,7 @@
   top: 1601px;
 }
 
-.form-control {
-  float: left;
-}
+
 .info-heading {
   /* Treatments We Provide */
 
@@ -176,7 +188,7 @@
   top: 2401px;
 
   /* H1 - SansPro 48 - Bold */
-
+  
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
@@ -189,22 +201,89 @@
 
   color: #08785d;
 }
+
+.title-cards{
+
+  width: 499px;
+  height: 48px;
+  left: 471px;
+  top: 2401px;
+
+  /* H1 - SansPro 48 - Bold */
+  
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  
+  text-align: center;
+  letter-spacing: 0.4px;
+  
+  color: #08785D;
+  
+}
+.form-control{
+  
+width: 285px;
+height: 50px;
+left: 689px;
+top: 4347.36px;
+
+background: #F2FCF7;
+border-radius: 5px;
+}
+.content-cards{
+
+
+
+
+padding-top: 250px;
+
+
+}
 .map-section {
   display: flex;
   padding-top: 200px;
+
 }
-.map-section-content {
+#map-section-content {
   margin-left: 700px;
+top: 5100px;
+  padding-bottom: 200px;
+  float: right;
 }
+
 .map-image {
-  float: left;
   position: absolute;
   width: 506px;
   height: 410px;
   left: 161px;
-
+  top: 5100px;
+  
   background: rgba(242, 252, 247, 0.2);
 }
 .subject {
   width: 500px;
+}
+.hr_treat{
+position: absolute;
+width: 200px;
+height: 0px;
+left: 620px;
+top: 2464px;
+
+
+border: 5px solid #70E4C0;
+}
+.btn_book{
+
+width: 244px;
+height: 50px;
+left: 689px;
+top: 4697.36px;
+
+background: #08785D;
+border-radius: 5px;
 }

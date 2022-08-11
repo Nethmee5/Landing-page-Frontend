@@ -3,12 +3,16 @@ import Contentcard from "../Contentcard";
 import "../header/header.css";
 import Footer from "../Footer";
 
+
 import Form from "../Form/Form";
+import Carousal from "../Carousal";
+
 const Header = () => {
   return (
     <div className="home">
       <div className="header">
-        <nav class="navbar navbar-expand-lg ">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               VM Foresthills
@@ -16,8 +20,8 @@ const Header = () => {
             <button
               class="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -64,227 +68,18 @@ const Header = () => {
         <p className="para2">
           LIVE PAIN FREE AND HELP YOU GET BACK TO YOUR HAPPY LIFE
         </p>
-        <button type="button" className="btn">
+        <button type="button" id="btn_1"class="btn btn-primary btn-lg" style={{}}>
           Book appointment
         </button>
-        <br />
-        <button type="button" className="btn1">
-          Call 987-987-789
+        <button type="button" id="btn_2"class="btn btn-primary btn-lg" style={{}}>
+        <img src={require("../images/Vector.png") }class="vector_phone" />Call - 718-690-3966
         </button>
+       
+      </div>
+      <div className="Carousal">
+        <Carousal />
       </div>
 
-      <div class="container my-5">
-        <hr class="my-5" />
-
-        <div
-          id="multi-item-example"
-          class="carousel slide carousel-multi-item"
-          data-ride="carousel"
-        >
-          <div class="controls-top">
-            <a
-              class="btn-floating"
-              href="#multi-item-example"
-              data-slide="prev"
-            >
-              <i class="fa fa-chevron-left"></i>
-            </a>
-            <a
-              class="btn-floating"
-              href="#multi-item-example"
-              data-slide="next"
-            >
-              <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
-
-          <ol class="carousel-indicators">
-            <li
-              data-target="#multi-item-example"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#multi-item-example" data-slide-to="1"></li>
-            <li data-target="#multi-item-example" data-slide-to="2"></li>
-          </ol>
-
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 clearfix d-none d-md-block">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 clearfix d-none d-md-block">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 clearfix d-none d-md-block">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 clearfix d-none d-md-block">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 clearfix d-none d-md-block">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 clearfix d-none d-md-block">
-                  <div class="card mb-2">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a class="btn btn-primary">Button</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="card">
         <div class="card-body">
           <img src={require("../images/doctor.png")} class="doc-img" />
@@ -312,108 +107,72 @@ const Header = () => {
       <div className="fform">
         <Form />
       </div>
-      <div className="content-cards">
-        <Contentcard />
-        <Contentcard />
+   
+        <div className="title-cards">Treatments We Provide</div>
+        <hr className="hr_treat"/>
+        <div className="content-cards">
+        <Contentcard
+          title="Relieve Shoulder Pain"
+          paragraph="We deal with various conditions ranging from rotator cuff injuries, labral injuries, bursitis, tendinitis, and impingement syndrome. 
+         Patients may be experiencing a variety of symptoms such as shoulder pain, weakness, tenderness, decreased range of motion, pain with overhead activities, and nocturnal symptoms. 
+        Different treatment options would consist of physical therapy, anti-inflammatory medications, shoulder injections, or surgery such as shoulder arthroscopy."
+        image={require("../images/Image.jpg")} />
+        <Contentcard
+          title="Relieve Wrist Pain"
+          paragraph="We focus on tendon and ligament tears in the wrist such as a tear of the triangular fibrocartilage complex. 
+           Symptoms can vary from wrist pain, weakness, tenderness, decreased range of motion, and pain with lifting and movements. 
+          Different treatment options would consist of physical therapy, anti-inflammatory medications, braces, or surgery such as wrist arthroscopy. "
+         image={require("../images/Image6.png")}/>
 
-        <Contentcard />
-        <Contentcard />
-        <Contentcard />
+        <Contentcard title="Relieve Knee Pain"  paragraph="We deal with several different knee conditions such as meniscal injuries, ligament injuries, bursitis, tendinitis, and joint effusions 
+       Patients may be experiencing a variety of symptoms such as knee pain, tenderness, decreased range of motion, and pain with weight-bearing activities. 
+        Different treatment options would consist of physical therapy, anti-inflammatory medications, knee steroid injection, or surgery such as knee arthroscopy."   image={require("../images/Image 3.png")}/>
+        <Contentcard title="Relieve Ankle Pain" paragraph="We focus on tendon and ligament tears in the ankle such as a tear of the anterior talofibular ligament or deltoid ligament. 
+       Symptoms can vary from ankle pain, weakness, tenderness, decreased range of motion, and pain with weight-bearing activities. 
+      Different treatment options would consist of physical therapy, anti-inflammatory medications, braces, or surgery such as ankle arthroscopy."   image={require("../images/Image 4.png")} />
+        <Contentcard title="Pain Management"  paragraph="We treat various conditions involving the neck and back such as disc disease, herniated disc, bulging disc, cervical disc hernia, and nerve/spinal cord compression. Patients may experience different symptoms such as neck pain, back pain, muscle tension, or other spinal conditions.
+      Different treatment options include cervical epidurals, lumbar epidurals, lumbar discectomy, cervical discectomy, trigger point injections, and medial branch injections."   image={require("../images/Image 5.png")}/>
       </div>
       <div className="map-section">
+        <div className="image-map">
         <img
           src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg"
           alt=""
           className="map-image"
           width="300px"
-          heught="300px"
+          height="300px"
         ></img>
+</div>
+<div className="form-sectiona">
+<form class="row g-3" id="map-section-content">
+  <div class="col-md-6">
+   
+    <input type="name" class="form-control" id="inputEmail4"placeholder="First Name*"/>
+  </div>
+  <div class="col-md-6">
+   
+   <input type="name" class="form-control" id="inputEmail4"placeholder="Last Name*"/>
+ </div>
+ <div class="col-md-6">
+   
+   <input type="email" class="form-control" id="inputEmail4"placeholder="Email"/>
+ </div>
+ <div class="col-md-6">
+   
+   <input type="number" class="form-control" id="inputEmail4"placeholder="Mobile Number"/>
+ </div>
 
-        <form className="map-section-content">
-          <table>
-            <tr>
-              <td>
-                {" "}
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstname"
-                  aria-describedby="emailHelp"
-                  placeholder="First Name*"
-                />
-              </td>
-              <td>
-                {" "}
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstname"
-                  aria-describedby="emailHelp"
-                  placeholder="Last Name"
-                />
-              </td>
-            </tr>
-            <br />
-            <tr>
-              <td>
-                {" "}
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstname"
-                  aria-describedby="emailHelp"
-                  placeholder="Email*"
-                />
-              </td>
-              <td>
-                {" "}
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstname"
-                  aria-describedby="emailHelp"
-                  placeholder="Mobile Number"
-                />
-              </td>
-            </tr>
-            <br />
-            <tr colspan="2">
-              {" "}
-              <input
-                type="text"
-                class="form-control"
-                id="firstname"
-                aria-describedby="emailHelp"
-                placeholder="Subject"
-              />
-            </tr>
-            <br />
-            <tr>
-              {" "}
-              <input
-                type="text"
-                class="form-control"
-                id="firstname"
-                aria-describedby="emailHelp"
-                placeholder="message"
-              />
-            </tr>
-            <tr>
-              <button
-                type="submit"
-                style={{
-                  width: 590,
-                  height: 50,
+  <div class="col-12">
 
-                  backgroundColor: "#08785D",
-                  borderRadius: 5,
-                }}
-              >
-                Book Appointment
-              </button>
-            </tr>
-          </table>
-        </form>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Subject"/>
+  </div>
+  <div class="col-12">
+
+<textarea class="form-control" id="inputAddress" placeholder="Message"/>
+</div>
+<button className="btn_book">Book Appointment</button>
+  </form>
+  </div>
       </div>
       <Footer />
     </div>
